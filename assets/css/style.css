@@ -1,0 +1,39 @@
+header {
+    background: #241773;
+    color: white;
+}
+
+footer {
+    background: #241773;
+    color: white;
+}
+
+img {
+    max-width: 32rem;
+}
+
+img[src=""] {
+    display: none;
+}
+
+.green {
+    color: #00B050
+}
+
+.orange {
+    color: #ED7D31
+}
+
+.purple {
+    color: #7030A0
+}
+
+.custom-tooltip {
+    --bs-tooltip-bg: var(--bs-primary);
+}
+
+@media only screen and (max-width: 600px) {
+    img {
+        max-width: 20rem;
+    }
+}
